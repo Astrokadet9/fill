@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color:rgb(157, 156, 248);
+    padding: 20px;
+}
+nav a{
+ background-color: rgb(191, 248, 250);
+ padding: 5px;
+ border-radius: 5px;
+ text-decoration: none;
+}
+.aaa {
+    display:flex ;
+    flex-direction: column;
+    padding:20px;
+}
+.sport {
+    display: flex;
+    justify-content: space-around;
+}
+.sport img {
+    width:40%;
+}
+.trenera img{
+    border-radius: 50%;
+}
+
+.treners{
+    display: flex;
+}
+
+.treners article{
+    width: 30%;
+}
+
+.treners img{width: 100%;}
+table {
+    border:black solid 2px;
+    border-collapse: collapse;
+    
+}
+
+td {
+    border:black solid 2px;
+    padding: 5px;
+}
+
+tr:first-child {
+    background-color: rgb(206, 98, 233);
+}
+td:first-child {
+    background-color: rgb(206, 98, 233);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
